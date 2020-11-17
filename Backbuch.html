@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Martina Barisic</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="Swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="Swiper/swiper-bundle.min.css">
+
+    <script src="Swiper/swiper-bundle.js"></script>
+    <script src="Swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+
+<body>
+    <header class="header">
+
+           
+            <nav class="navbar">
+            <div class="brand-title">MARTINA BARISIC</div>
+          
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="effekt" href="index.html">ÜBER MICH</a></li>
+                    <li><a class="effekt" href="projekte.html">PROJEKTE</a></li>
+               </ul>
+            </div>
+        </nav>
+    
+
+
+    </header>
+
+    <div class="wrapper">
+ 
+        <h1><a href="projekte.html"><img class="pfeil" src="Bilder/pfeilschwarz.png"/> </a>BUCHDESIGN</h1>
+        <h2>Backbuch Layout&#58; eigenes Projekt&#44; 2020</h2>
+
+      
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Bilder/Backbuch/Cover.jpg" alt="Cover Backbuch" /></div>
+                <div class="swiper-slide"><img src="Bilder/Backbuch/23.jpg" alt="Inhaltsverzeichnis 1"/></div>
+                <div class="swiper-slide"><img src="Bilder/Backbuch/3.jpg" alt="Inhaltsverzeichnis 2"/></div>
+                <div class="swiper-slide"><img src="Bilder/Backbuch/34.jpg" alt="Backbuch Seite"/></div>
+                                <div class="swiper-slide"><img src="Bilder/Backbuch/45.jpg"alt="Backbuch Seite" /></div>
+                                <div class="swiper-slide"><img src="Bilder/Backbuch/56.jpg" alt="Backbuch Seite"/></div>
+                                <div class="swiper-slide"><img src="Bilder/Backbuch/67.jpg" alt="Backbuch Seite"/></div>
+                                <div class="swiper-slide"><img src="Bilder/Backbuch/78.jpg" alt="Backbuch Seite"/></div>
+                <div class="swiper-slide"><img src="Bilder/Backbuch/89.jpg" alt="Backbuch Seite"/></div>
+                <div class="swiper-slide"><img src="Bilder/Backbuch/91.jpg"alt="Backbuch Seite" /></div>
+           
+              
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+
+
+
+      
+
+
+    </div>
+
+
+
+
+
+  <!-- Swiper JS -->
+        <script src="../package/swiper-bunf"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+        </script>
+ <script src="JS/app.js"></script>
+
+</body>
+</html>
