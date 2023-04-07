@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <title>Martina Barisic</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="Swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="Swiper/swiper-bundle.min.css">
+
+    <script src="Swiper/swiper-bundle.js"></script>
+    <script src="Swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+
+<body>
+    <header class="header">
+
+
+        <nav class="navbar">
+            <div class="brand-title"><a href="index.html">MARTINA BARISIC</a></div>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="effekt" href="index.html">ÜBER MICH</a></li>
+                    <li><a class="effekt" href="projekte.html">PROJEKTE</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <div class="wrapper">
+
+        <h1><a href="projekte.html"><img class="pfeil" src="Bilder/pfeilschwarz.png" /> </a>BRANDING</h1>
+        <h2>Restaurant Rebranding: Logo, Geschäftsausstattung, Website<br> Hillert Next&#44; 2022</h2>
+
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild1.jpg" alt="Taste of black" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild2.jpg" alt="Visitenkarte" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild3.jpg" alt="Karte" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild4.jpg" alt="moodboard dark" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild5.jpg" alt="Taste of white" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild6.jpg" alt="Visitenkarte" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild7.jpg" alt="Karte" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild8.jpg" alt="moodboard light" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/bild9.jpg" alt="Taste of black and white" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/Website.jpg" alt="Website" /></div>
+                <div class="swiper-slide"><img src="Bilder/AlCapitan/last.jpg" alt="Logo" /></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bunf"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+    <script src="JS/app.js"></script>
+
+</body>
+
+</html>
